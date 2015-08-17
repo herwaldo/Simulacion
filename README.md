@@ -1,1 +1,3 @@
 # Simulacion
+
+Metodos Numericos aleatorios
