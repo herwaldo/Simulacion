@@ -1,8 +1,10 @@
+import time
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
 import math
 a=48.0
+control=0
 datosX=[]
 datosY=[]
 radio=0.0
@@ -60,4 +62,22 @@ while i<limite:
 	if valor<=(radio**2):
 		delta+=(1/(limite*((2*radio)**2)))
 		print delta
+	'''if (control==100):
+		control=0
+		plt.ion()
+		ax=plt.gca()
+		for z in range(int(i)):
+			if valor<=(radio**2):
+				ax.plot(datosX[z],datosY[z],"b*")
+			else:
+				ax.plot(datosX[z],datosY[z],"r*")
+		plt.draw()'''
+	plt.ion()
+	ax=plt.gca()
+	if valor<=(radio**2):
+		ax.plot(datosX[control],datosY[control],"b*")
+	else:
+		ax.plot(datosX[control],datosY[control],"r*")
+	plt.draw()
+	control+=1
 	#print "Este es el radio generado: "+str(delta)+", este es el radio teorico: "+str(math.pi*(radio**2))
