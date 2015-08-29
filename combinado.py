@@ -32,14 +32,5 @@ while i<limite:
 
 #print datos[100]
 
-hist(datos,100,(0,1))
+hist(datos,limite,(0,1))
 show()
-'''pos = arange(len(datos))
-bar(pos,datos)
-#xticks(pos,array2,rotation=30, size='small')
-savefig("NumCanal.jpg")
-
-
-fig,l = plt.subplots()
-n,bins = np.histogram([1,2,3,4,2],10)
-plt.show()'''
