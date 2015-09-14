@@ -4,7 +4,11 @@ Xn=0.0
 Un=0.0
 x0=input("Ingrese el valor de la semilla \n")
 if (len(str(x0))%2) == 0:
+<<<<<<< HEAD
 	limite = input ("ingrese el numero de valores aletaorios \n")
+=======
+	limite = input ("ingrese el numero de iteraciones \n")
+>>>>>>> 9248fc74e2ce22c4fac558913476bb1a29d609a4
 	while i<limite:
 		valor=x0*x0
 		convertir=""+str(valor)
