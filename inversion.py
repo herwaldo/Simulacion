@@ -21,7 +21,7 @@ def comparar_valores(valor):
 
 valor = input("Ingrese el numero de variables de aleatorias \n")
 for i in range(valor):
-	dato=input("Ingrese el valor de la variable X "+str(i)+": \n")
+	dato=input("Ingrese el valor de la variable X "+str(i+1)+": \n")
 	x.append(dato)
 	porba=input("Ingrese el valor de la Provabilidad de X: \n")
 	px.append(porba+0.0)

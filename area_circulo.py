@@ -61,4 +61,4 @@ while i<limite:
 	plt.draw()
 	control+=1
 
-print "Este es el radio generado: "+str(delta)+", este es el radio teorico: "+str(math.pi*(radio**2))
+print "Este es el radio generado: "+str(delta)+",este es el radio teorico: "+str(math.pi*(radio**2))
