@@ -15,7 +15,7 @@ def congruencialMixto(entrada):
 def comparar_valores(valor):
 	numero=0.0
 	for i in range(len(px)):
-		if (valor<=acumulada[i]):
+		if (valor>=acumulada[i]):
 			numero=x[i]
 	return numero
 

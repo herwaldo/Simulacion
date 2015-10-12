@@ -50,7 +50,7 @@ while i<limite:
 	datosY.append(y)
 	i+=1
 	valor=rando_x**2+rando_y**2
-	if valor<=(radio**2):
+	if (valor**2)<=radio:
 		delta+=((1/limite)*((2*radio)**2))
 	plt.ion()
 	ax=plt.gca()
