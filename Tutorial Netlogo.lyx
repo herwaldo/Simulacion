@@ -1,0 +1,1816 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size largest
+Tutorial #1
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione el botón "setup".
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le aparece en la vista? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Se encuentra el número de lobos, ovejas y parto cubriendo toda la vista
+ como en la 
+\series bold
+Figure 1
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vista de la simulación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione el botón "go" para iniciar la simulación.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione el botón "go" para detener el modelo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le está sucediendo a las poblaciones de lobos y ovejas a medida que
+ está corriendo el modelo?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Encontramos que el sistema al avanzar el tiempo la población de lobos crece,
+ también sucede con las ovejas.
+ A través del tiempo la población de ovejas va decayendo y aumentando la
+ de lobos, llegando a un punto de los lobos van obteniendo un número mayor
+ de ovejas y empiezan a morir por falta de comida, al punto donde mueren
+ todos los lobos y las ovejas vuelven a repoblar la zona mirar 
+\series bold
+figure 2
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura1.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Muerte de lobos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Si lo desea, experimente con los botones "setup" y "go" del modelo de depredació
+n lobo oveja (Wolf Sheep).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Alguna vez obtendrá resultados diferentes si ejecuta el modelo en repetidas
+ ocasiones manteniendo la misma configuración? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+No, El resultado siempre será el mismo ya que el sistema tiene las mismas
+ condiciones y restricciones.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Abra Wolf Sheep Predation si aun no está abierto.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" y "go" y deje que el modelo corra por aproximadamente 100
+ ticks de tiempo.
+ (Nota: hay una lectura del número de ticks justo encima de la parcela).
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Detenga el modelo pulsando el botón "go".
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué pasó con las ovejas a través del tiempo? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La población de las ovejas creció considerablemente teniendo 288.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Encienda el switch de la hierba ("grass?").
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" y "go" y deje correr el modelo por una cantidad de tiempo
+ similar al de la anterior.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le hizo este switch al modelo? ¿Fue el mismo resultado de la ejecución
+ previa?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Encontramos que el pasto en alguno sectores no hay.
+ El resultado fue diferente teniendo que la población de ovejas disminuye
+ y aumenta, lo mismo sucede con los lobos; esto se debe a que el pasto es
+ de gran influencia en las ovejas al disminuir ya no va a tener tanta cantidad
+ de comer y morirían, ocurre con los lobos a no ver tanta cantidad de ovejas
+ para comer mueren, finalmente se encuentra un sistema ya más adaptado a
+ la realidad mirar 
+\series bold
+figure 3
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura13.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo parecido a la vida real
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué sucedería con la población de ovejas si hay al comienzo de la simulación
+ inician más ovejas y menos lobos? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+No se puede asegurar que va a suceder, esto se decide con respecto a las
+ condiciones iniciales del modelo, además que afecta en el crecimiento y
+ muerte de los agentes o seres del modelo.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Apague "grass?".
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Establezca el slider del número inicial de ovejas" ( "initial-number-sheep")
+ a 100.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Establezca el slider del número inicial de lobos ("initial-number-wolves")
+ a 20.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" y luego "go".
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Permita que el modelo corra alrededor de 100 ticks de tiempo.
+ Intente correr el modelo varias veces con estos ajustes.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le ocurrió a la población de ovejas? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fue tan grande la población de ovejas que los lobos empezaron a reproducirse
+ más rápido y al final se acabaron las ovejas y terminaron muriendo las
+ dos especies observar 
+\series bold
+figure 4
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura2.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo con grass o hierba infinita
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Le sorprendió este resultado?, ¿Qué otros sliders o switches se pueden
+ ajustar para ayudarle a la población de ovejas? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Si sorprende teniendo en cuenta que a pocos lobos puedan sobrevivir tanto
+ tiempo, pero al final mueran las dos especies.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Activar el campo de pasto y disminuir la taza de reproducción.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Ajuste el número inicial de ovejas a 80 y el número inicial de lobos a 50.
+ (Esto es cercano a la forma en que estaban cuando usted abrió el modelo
+ por primera vez.) 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Fije "sheep-reproduce" en 10,0%.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" y luego "go".
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Permita que el modelo corra alrededor de 100 ticks de tiempo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le pasó a los lobos en esta ejecución?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La taza de reproducción de las ovejas es muchos más alta, entonces se encontrara
+ una población demasiado alta de ovejas que de lobos, seguidamente se observa
+ que la cantidad de lobos es muy baja y su reproducción es muy lenta en
+ comparación a la de ovejas.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" y luego "go" para iniciar la ejecución del modelo.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+A medida que corra el modelo, mueva el slider de la velocidad a la izquierda.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué sucede?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Se encuentra que se ralentiza la vista de la simulación y espera un tiempo
+ para poder hacer la siguiente iteración.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Mueva el slider de velocidad a la mitad.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pruebe moviendo el slider de la velocidad a la derecha.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Ahora intente marcando y desmarcando la casilla de verificación de las actualiza
+ciones de la vista (view updates).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué sucede?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El sistema realiza la simulación en forma rápida sin intervalos de tiempo,
+ además al activar la casilla y desactivarla nos muestra cómo está la población
+ en ese momento.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pulse el botón "Settings ..." en la barra de herramientas.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Cuáles son los ajustes actuales para max-pxcor, pxcor-min, max-pycor, min-pycor
+, y patch size (tamaño del parche)? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Min-pxcor:-25, Max-pxcor:25, Min-pycor:-25, Max-pycor:25 and Patch size:
+ 9 como esta en la 
+\series bold
+figure 5
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura3.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cuadro de opciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pulse "cancel" para hacer que esta ventana desaparezca sin cambiar la configurac
+ión.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Coloque el puntero del ratón al lado, pero fuera, de la vista.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Notará que el puntero se convierte en una cruz.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Manténgase pulsado el botón del ratón y arrastre el puntero sobre la vista.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+La vista está seleccionada ahora, cosa que usted puede saber porque la vista
+ ahora está rodeada por un borde gris.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Arrastre una de las "asas" cuadradas negras.
+ Las asas se encuentran en los bordes y en las esquinas de la vista.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Deseleccione la vista haciendo clic en cualquier lugar del fondo blanco
+ de la Interfaz.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pulse de nuevo el botón "Settings..." y vea los ajustes.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué números cambiaron? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Cambio Patch size: 10.804.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué números no cambiaron?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Min-pxcor:-25, Max-pxcor:25, Min-pycor:-25, Max-pycor:25.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿A cuántas baldosas de distancia está la baldosa (0,0) respecto a lado derecha
+ de la habitación? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Se encuentra a tres baldosas mirando solo la baldosa del centro.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿A Cuántas baldosas de distancia está la baldosa (0,0) respecto al lado
+ izquierdo de la habitación?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Se encuentra a tres baldosas mirando solo la baldosa del centro.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Utilizando el diálogo de Model Settings que aun sigue abierto, cambie max-pxcor
+ a 30 y el valor de max-pycor a 10.
+ Observe que min-pxcor min-pycor también cambian.
+ Esto se debe a que por defecto el origen (0,0) está en el centro del mundo.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le ocurrió a la forma de la vista?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Lo ocurrido es la redimensión de la vista está más alargada o ancha y menos
+ altura como en la 
+\series bold
+figure 6
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura4.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modificada el ancho
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione el botón de "setup".
+ Ahora puede ver los nuevos parches que ha creado.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Edite la vista pulsando nuevamente el botón "Settings...".
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Cambie el tamaño del parche (patch size) a 20 y presione "OK".
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué pasó con el tamaño de la vista?, ¿cambió esto su forma? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Cambio la forma dimensión de la vista, además las ovejas se ven más grandes
+ igual que los lobos como en la 
+\series bold
+figure 7
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura5.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ampliacion de la vista.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size largest
+Tutorial #2 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Vaya a la Librería de Modelos (Models Library) en el menú de Archivo (File
+ menu) .
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Abra tráfico básico (Traffic Basic), que se encuentra en la sección "Ciencias
+ Sociales" ("Social Science").
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Ejecute el modelo por un par de minutos para familiarizarse con él.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Consulte la ficha de información para cualquier pregunta que tenga acerca
+ de este modelo.
+ A medida que utiliza el modelo básico de tráfico mirar firgure 8.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Encuentra alguna adición que le gustaría hacerle al modelo? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Huecos en las calles, accidente automovilístico, semáforos, etc.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura6.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustracion del modelo de via
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+En el tráfico básico: 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione el botón "setup".
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Busque el Centro de Comando.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Haga clic con el ratón en el cuadro blanco en la parte inferior del Centro
+ de Comando.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba el texto que se muestra en la figure 9.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pulse la tecla de retorno.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué le pasó a la vista?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La vista ha cambiado a color amarillo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura7.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cambio del fondo a amarillo y consola de comando
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Por qué los coches no se cambiaron también a amarillo?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+No cambiaron ya que los carros son agentes diferentes al modelo, además
+ tiene comportamiento diferente con respecto al fondo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué ocurrió en el Centro de Comando? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Todo comando ejecutado de seguro debe ser visible para saber qué tipo de
+ cambios le hemos hecho al modelo.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Fue el resultado de lo que esperaba? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+No yo solo esperaría que los carros de color azul fueran los únicos afectados,
+ si se cambia el color de todos para una persona que no conoce debe ser
+ más difícil de reconocer lo que se está analizando.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+En el Centro de Comando, haga clic en el "observer>" en la esquina inferior
+ izquierda:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Elija "turtles" ("tortugas") en el menú emergente.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba set color pink y pulse retorno.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Pulse la tecla de tabulación hasta que vea "patches>" en la esquina inferior
+ izquierda.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba set pcolor white y pulse retorno.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Cómo luce ahora la vista? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El fondo de la vista ha cambiado a color blanco más llamativo y los coches
+ siguen estan de color rosado.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura9.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fondo diferente y carro insignia no identificado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Nota alguna diferencia entre estos dos comandos y los comando del observer
+ anteriores? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+No mucha solo que hay que saber que comando escribir para que aplique los
+ cambios
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+.
+\series bold
+Presione "setup".
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué pasó?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Los cambios se vieron afectados y vuelven a estar como por defecto lo define
+ el modelo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Cuál es la diferencia entre el color y pcolor? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El color es usado para las agentes y el pcolor es usado fondo de la vista.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Elija "turtles" en el menú desplegable del Centro de Comando (o utilice
+ la tecla de tabulación).
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba set color blue y pulse retorno.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué pasó con los coches? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Todos los coches se vuelven de color azul.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+En su lugar escriba set pcolor red y pulse retorno.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Elija "patches" en el menú desplegable en el Centro de Comando (o utilice
+ la tecla de tabulación).
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba set pcolor rojo - 2 (El espacio en torno a la "-" es importante.)
+ Restando de rojo, usted lo hace más oscuro.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba set pcolor rojo + 2 Sumando a rojo usted lo vuelve mas claro.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Presione "setup" para que reaparezca el coche rojo.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Si usted está en un equipo Macintosh, mantenga pulsada la tecla Control
+ y haga clic en el coche rojo.
+ En otros sistemas operativos, haga clic sobre el coche rojo con el botón
+ derecho del ratón.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Si hay otra tortuga cerca de la tortuga de color rojo verá más de una tortuga
+ listada en la parte inferior del menú.
+ Mueva el ratón encima de las tortugas seleccionadas, observe que cuando
+ el ratón resalta un elemento del menú de la tortuga, la tortuga también
+ es resaltada en la vista.
+ Para la tortuga de color rojo seleccione del sub-menú la opción "inspect
+ turtle" ("inspeccionar las tortuga").
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Cuál es el who number de la tortuga? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El número es 1 mirar 
+\series bold
+figure 11
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura10.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Seleccion de un agente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿De qué color es esta tortuga?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Rojo.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿De qué forma es esta tortuga? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Carro.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+En el Comandante de Agente del monitor de turtle escriba set color pink
+ para la tortuga 0.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué sucede en la vista? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La vista sigue igual lo único que cambia es el color del carro insignia
+ obervar 
+\series bold
+figure 12
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura11.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cambiando un agente de color
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Cambió algo en el monitor de la tortuga?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El color del carro rojo cambia a rosado.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Seleccione el texto a la derecha de "color" en el Monitor de Tortuga.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba un nuevo color como green + 2.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué pasó?
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El carro cambia a color verde claro observar 
+\series bold
+figure 13
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/netlogo/Captura12.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+En el Centro de Comando, seleccione "observador" en el menú desplegable
+ (o utilice la tecla de tabulación).
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+
+\series bold
+Escriba ask turtle 0 [set color blue] y pulse retorno.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+¿Qué sucede?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ese carro cambia solo al color azul.
+ 
+\end_layout
+
+\end_body
+\end_document

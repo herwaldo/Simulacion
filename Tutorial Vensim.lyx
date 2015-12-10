@@ -1,0 +1,2671 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size larger
+SIMULACIÓN DE MODELOS POBLACIONALES 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Ejemplo 7.1 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Un determinado pueblo tiene 5000 habitantes.
+ Cada año, aproximadamente nacen 150 bebés.
+ Nuestro objetivo es el de estimar la población en los próximos años.
+ Del enunciado del problema se desprende que: 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+POBLACION: valor inicial = 5000; unidades: Personas.
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Nacimientos: 150; unidades = Personas/año.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para comenzar abrimos el Vensim.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Ya que tenemos la ventana abierta procedemos a la casilla que dice Box Variable
+ y la seleccionamos.
+ Notara que cuando se pasa a la ventana de simulación aparece un recuadro
+ al lado del puntero con una T.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Damos click en cualquier parte de la ventana de simulación y escribimos
+ (POBLAICON).
+ 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Ahora en el campo que dice Rate lo pulsamos y aparece el mismo recuadro
+ pero ahora con la opción de Rate.
+ Damos click el cualquier parte de la ventana de simulación y luego apuntamos
+ la otra punta encima de la caja de POBLACION, pasamos a escribir nacimientos
+ tendremos un diagrama con el que muestra 
+\series bold
+figure 1
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sistema causal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Ahora partimos a agregar los valores de cada una de las variables.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+En el campo que dice 
+\series bold
+Equation
+\series default
+ la presionamos y seguidamente damos click en cualquiera de los campos ya
+ se 
+\series bold
+POBLACION
+\series default
+ o 
+\series bold
+NACIMIENTOS
+\series default
+ (en el ejemplo primero presionamos personas).
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Se abre una nueva venta en la cual configuramos las variables.
+ En el campo que dice 
+\series bold
+Units
+\series default
+ hay escribimos 
+\series bold
+Personas 
+\series default
+y en 
+\series bold
+Initial Value
+\series default
+ escribimos
+\series bold
+ 5000
+\series default
+ como se muestra en 
+\series bold
+figure 2
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/Sin título.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ventana de ingreso de datos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Procedemos a hacer lo mismo con la siguiente variable en este caso nacimientos
+ y configuramos como se ilustra en la 
+\series bold
+figure 3
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/Sin título2.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Ahora configuramos el tiempo que toma modelo, se debe tener en cuenta que
+ el tiempo puede estar dado por horas, días, años, etc.
+ Procedemos a ingresar a Model y en settings se abreve una nueva ventana;
+ en el campo que dice 
+\series bold
+Units for time
+\series default
+ elegimos la opción Year y le damos OK para terminar obervar 
+\series bold
+figure 4
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/Sin título3.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ventana de control de simulación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Finalmente se ejecuta el programa y analizar los resultados (Para desplegar
+ las gráficas debes seleccionar todo el modelo y el parte que dice Graph
+ y se abrirán) observar 
+\series bold
+figure 5
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura2.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de nacimientos y POBLACION
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Ejemplo 7.2 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Ahora necesitamos algo más de información sobre el pueblo.
+ Nos hemos enterado que nacen 150 personas cada año, pero también mueren
+ 75 personas cada año.
+ Deseamos analizar la evolución de la población en los próximos años.
+ Para ello, construimos un flujo de salida y le denominamos muertes, e introduci
+mos las ecuaciones: 
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Muertes = 75; unidades = Personas/año.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ahora tendremos un modelo como lo ilustra 
+\series bold
+figure 6
+\series default
+: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura6.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo simple
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Agregamos los valores como se hizo anteriormente y obtendremos una gráfica
+ que ilustra 
+\series bold
+figure 7
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura7.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de muertes, nacimientos y POBLACION
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+¿Por qué aumenta la población? 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En el grafico se observa que a 150 personas que nacen y mueren 75, siendo
+ un incremento de la población en 75 personas por año.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Ejemplo 7.3
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Tratemos de situarnos en otro escenario: Supongamos otro pueblo B que tiene
+ hoy 5000 habitantes.
+ Una media de 50 bebés nacen por año, y sin embargo una media de 125 personas
+ fallecen al año.
+ ¿Qué sucederá en el pueblo en los próximos años? Procedemos de la misma
+ manera que en el ejemplo anterior introduciendo los nuevos datos puedes
+ observar los resultados en figure 8.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura8.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Graficas con el pueblo B
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+A diferencia del primer pueblo al pueblo B, el pueblo B tiene una taza de
+ muertes mucho más alta que la de nacimientos, por esta razón la población
+ decrece con el tiempo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+¿Qué es lo que determina la tasa de nacimientos?
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Diremos que el número de nacimientos por año es una fracción de la población
+ existente; para cualquier año, el número de nacimientos dependerá del tamaño
+ que la población tiene ese año.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Puesto que es una dependencia con un conector se representara con una flecha
+ arqueada.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Seleccionamos la flecha arqueada que esta entre Box Variable y Rate llamada
+ Arrow.
+ Nos situamos sobre 
+\series bold
+POBLACIÓN
+\series default
+, seguidamente oprimimos clic izquierdo y arrastramos hasta nacimientos
+ (Podemos cambiar la curvatura del conector, manteniendo presionado en el
+ círculo y movemos el puntero a donde queramos que se vea la curvatura)
+ observar 
+\series bold
+figure 9
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura9.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingresando flujo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ahora como habíamos dicho que la tasa de nacimientos será una fracción de
+ la población existente.
+ La fracción representará la fertilidad de la población, es decir, con qué
+ frecuencia se reproduce la población.
+ Para calcular la fracción de nacimientos dividiremos los nacimientos por
+ la población y de esta manera obtendremos la fracción de nacimientos por
+ persona que viven en el pueblo.
+ La fracción de nacimientos será de 150/5000 = 0.03 o el 3% anual.
+ De la misma manera, como en el segundo pueblo había inicialmente 5000 personas
+ y la tasa de nacimientos será de 50 personas por año, la fracción de nacimiento
+s será de 50/5000 = 0.01.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Procederemos a agregar la fracción de nacimientos en nuestro modelo
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Presionamos donde dice Variable y la agregamos donde queramos y escribimos
+ fracción de nacimientos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Conectamos esta variable con el flujo de nacimientos con el conector (Arrow)
+ observa como queda el modelo en 
+\series bold
+figure 10
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura10.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingreso de una variable y conectar por medio de flujo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ahora agregamos el valor a la fracción de nacimientos: 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Presionamos en ecuaciones y sobre fracción de nacimientos tecleamos 0.03.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Como unidad escribimos (Personas/año)/Personas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+En comentario escribimos: La fracción de nacimientos para el pueblo se ha
+ calculado dividiendo la tasa de nacimientos por la población.
+ La fracción de nacimientos representa la fertilidad de la población.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Pulsamos O.K puedes observar 
+\series bold
+figure 11
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura11.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingresando valores y comentario a fraccion de nacimientos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ahora debemos redefinir las ecuaciones de flujo de nacimientos.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Presionamos sobre ecuaciones y en nacimientos entre paréntesis encerramos
+ la población más la cantidad de nacimientos y se multiplica por la fracción
+ de nacimientos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+En comentario escribimos: Los nacimientos dependen de la población actual
+ y la fracción de nacimientos que representa la fertilidad de la población.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Pulsamos O.K puedes observar 
+\series bold
+figure 12
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura12.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingresnado valor y comentario a nacimientos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para finalizar repetimos el mismo proceso para el flujo de muertes.
+ La fracción de muertes en el primer pueblo será de 75/5000 = 0.015, y en
+ el segundo pueblo es de 125/5000 = 0.025.
+ El proceso se finaliza volviendo a escribir las ecuaciones para el flujo
+ de muertes y la variable fracción de muertes observa el modelo en 
+\series bold
+figure 13
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura13.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo final con las nuevas variables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La configuración de muertes y fracción de muertes se muestra en las 
+\series bold
+figure 14 y 15
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura14.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingreso de datos y comentario a muertes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura15.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ingreso de datos y comentario de fraccion de muertes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Procedemos a simular el modelo durante los próximos 100 años obtendremos
+ los siguientes resultados para el pueblo A (puedes mirar en 
+\series bold
+figure 16
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura16.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica pueblo A
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para el pueblo B obtendremos la grafica expresas en 
+\series bold
+figure 17
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura17.JPG
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica pueblo B
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La clave para comprender el comportamiento de las poblaciones esta en entender
+ el principio de la retroalimentación.
+ La fracción de nacimientos determina la POBLACION.
+ Al mismo tiempo, la POBLACION determina los nacimientos.
+ Cuanto mayor es la población, mas nacimientos se producen.
+ A este proceso se le llama retroalimentación positiva, o de refuerzo.
+ La retroalimentación positiva genera un crecimiento exponencial, que es
+ lo que ocurre en el primero de los pueblos.
+ Si repetimos el mismo proceso en el segundo de los pueblos.
+ La población experimenta un decaimiento exponencial.
+ El primer pueblo se caracterizaba por una elevada tasa de nacimientos,
+ mientras que el segundo tiene una elevada tasa de muertes.
+ La población de la primera de las ciudades estaba conducida por una retroalimen
+tación positiva, por el contrario la segunda de las ciudades posee una retroalim
+entación negativa.
+ Cuanto mayor sea el nivel POBLACION mayor será la fracción de muertes,
+ la cual reduce el tamaño de la población.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Estructura Genérica
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Los sistemas que siguen un comportamiento logístico están caracterizados
+ por contenciones o límites del crecimiento.
+ En el caso de los conejos, la contención es la cantidad fija de agua.
+ Esta contención indica el número máximo de conejos que el sistema puede
+ soportar.
+ En el ejemplo de una epidemia, la contención podría ser la población total
+ expuesta a la enfermedad.
+ Varios niveles y flujos producen un comportamiento del tipo logístico.
+ La sfigure 18 representa a una estructura genérica que muestra de forma
+ intuitiva ciclos de retroalimentación y la contención de un sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura18.JPG
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagram causal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para agregar el más y los menos como están en la imagen se utiliza la opción
+ de comentario.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Ahora procederemos a ingresar los valores de las variables: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción de nacimientos: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: 0.5 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: 1/mes 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Comentario: La fracción de nacimientos es la velocidad con que los conejos
+ pueden reproducirse.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Población normal de conejos: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: 500
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: conejos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Comentario: La población normal de conejos representa a la capacidad de
+ carga del sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción normal de muertes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: 0.5/3
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: 1/mes 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Comentario: La fracción normal de muertes es la velocidad con la que cada
+ conejo moriría si la fuente de alimentos fuese ilimitada.
+ Es la tercera parte de la fracción de nacimientos.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Efecto de hacinamiento 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: 5*CONEJOS/población normal de conejos-3*CONEJOS/población
+ normal de conejos+1 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: dimensionales
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Comentario: El hacinamiento no tiene efecto en la fracción de muertes cuando
+ el número de conejos no alcanza la mitad de la capacidad de carga (aproximadame
+nte).
+ Cuando el número de conejos llega a ser el máximo de la población, el factor
+ de multiplicación aumenta de 1 a 3.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción de muertes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: fracción normal de muertes*efecto de hacinamiento
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: 1/mes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Comentario: La fracción de muertes es la velocidad actual con la que los
+ conejos mueren.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Muertes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: fracción de muertes*CONEJOS
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: conejos/mes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Nacimientos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: fracción de nacimientos*CONEJOS
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: conejos/mes
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Conejos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: 10 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: conejos.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Flujo neto
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Valor inicial: Nacimientos-Muertes 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades: conejos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Cuando realizamos la simulación obtenemos la siguiente población de conejos,
+ observa la grafica en 
+\series bold
+figure 19
+\series default
+: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura19.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de conejos por mes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En la gráfica se observa un crecimiento del tipo exponencial en los primeros
+ meses, como consecuencia del ciclo de retroalimentación positivo.
+ Aproximadamente a los 12 meses, la curva cambia la concavidad.
+ Los conejos están empezando a sentir la contención debido a un medio ambiente
+ con recursos limitados.
+ El crecimiento exponencial se convierte en un crecimiento asintótico.
+ El punto de la curva en el cual cambia la concavidad es el punto de inflexión
+ y está situado en aquel valor donde la población llega a ser la mitad de
+ la capacidad de carga (300 conejos).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En el modelo podemos observar que también hemos creado una variable llamada
+ 
+\series bold
+flujo neto
+\series default
+ que es la diferencia entre los 
+\series bold
+Nacimientos
+\series default
+ y las 
+\series bold
+Muertes
+\series default
+.
+ Existen dos posibles puntos de equilibrio en todo modelo logístico.
+ El primero de ellos corresponde al valor de cero del tiempo.
+ No habrán nacidos los conejos y ningún habrá muerto.
+ Los nacimientos y las muertes son cero, y el sistema está en equilibrio.
+ La diferencia entre los nacimientos y las muertes es cero.
+ El primer punto de equilibrio es inestable y el segundo es estable.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura20.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de las variables flujo neto, muertes y nacimientos 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Puedes obtener estas tres graficas teniendo presionado shift y seleccionar
+ las variables que quieres graficar.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El comportamiento obtenido de la población de conejos nos sirve para ilustrar
+ las características que determina el crecimiento.
+ Los cambios en el flujo neto del nivel hacen cambiar la forma del crecimiento.
+ Cuando el flujo neto tiene pendiente positiva (derivada) el ciclo de retroalime
+ntación positivo es el que domina y entonces el crecimiento es del tipo
+ exponencial.
+ Cuando el ciclo que domina es el negativo, la pendiente a la curva del
+ flujo neto es negativa y entonces el nivel tiene un crecimiento del tipo
+ asintótico.
+ El cambio de uno al otro ocurre cuando la pendiente del flujo neto es cero.
+ Esto significa que el flujo neto alcanza el valor máximo.
+ El nivel cesa de crecer cuando el flujo neto es cero.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size larger
+SIMULACIÓN DE MODELOS DINAMICOS BIOLÓGICOS 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Modelo Neuronal de Fitzhugh – Nagumo
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Este modelo describe el comportamiento de células nerviosas en condiciones
+ ideales de laboratorio, de tal manera que todas las dendritas receptoras
+ retienen el mismo potencial.
+ Se ignora, por ejemplo, el cambio de potencial a lo largo de axón y a través
+ de la célula.
+ Por tanto, lo único que causa la reacción de la célula es que exista un
+ potencial externo lo suficientemente grande que permita establecer una
+ señal de entrada a través de la dendrita de conexión.
+ Las ecuaciones que describen al modelo son:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $\frac{dx}{dt}=-x(x-x_{1})(x-x_{2})-y+E$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $\frac{dy}{dt}=\text{є}(x-ky)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Donde x es el potencial de partida de la membrana desde su equilibrio, e
+ y la variable de recuperación.
+ Estas son dos variables de estado del sistema.
+ Los parámetros x1 y x2 indican la influencia de x sobre su tasa de cambio
+ y son constantes de valores x1 = 0.2, x2 = 1.
+ El parámetro E mide la corriente eléctrica actual a la que se encuentra
+ sometida la neurona.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La tasa de cambio de la variable de reconversión y, depende de la diferencia
+ entre el potencial de salida de la membrana x y la variable y que decae
+ con una tasa constante k.
+ En el modelo elegimos de forma arbitraria k = 0.5 y E = 0.02.
+ En 
+\series bold
+figure 21
+\series default
+ esta el diagrama completo.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura21.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama causal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Las ecuaciones y variable que definen el modelo son las siguientes: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+E = 0 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Epsilon = 0.02 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Entrada1 = (x1+x2)*potencial*potencial+E 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Entrada2 = Epsilon*potencial 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Salida1 = x1*x2*potencial+potencial*potencial*potencial+recuperación 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Salida2 = Epsilon*recuperación*0.5 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+X1 = 0.2 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+X2 = 1 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Potencial = valor inicial: 0, integ(entrada1 – salida1)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Recuperación = valor inicial: 0, integ(entrada2 – salida2)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Se producen ciclos que están representados en 
+\series bold
+figure 22
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura22.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de potencial y recuperacion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La 
+\series bold
+figure 23
+\series default
+ grafica corresponde al caso en el que todos los valores se mantienen iguales
+ excepto E = 0 y el valor inicial del potencial = 0.4.
+ Ahora, la célula responde cuando el potencial inicial de la membrana es
+ positivo.
+ El potencial de la membrana tiende asintóticamente hacia cero desde el
+ valor inicial, después de subir a atravesar el valor nulo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura23.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Respuesta para E = 0 y potencial = 0.4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Finalmente, en la siguiente grafica puede verse el comportamiento caótico
+ del modelo cuando tomamos E = 32 observar comportamiento en 
+\series bold
+figure 24
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura24.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comportamiento para E = 32
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size larger
+Modelo de Sistema Inmunológico 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El sistema inmunológico es poderoso por ser muy específico (células que
+ atacan a los invasores) y su memoria (células preparadas para lanzar un
+ rápido ataque si regresan al mismo tipo de invasores).
+ Cuando una célula extraña entra en el cuerpo humano, el intruso comienza
+ a multiplicarse y se distribuye a través del flujo sanguíneo.
+ Cada célula extraña tiene su propio antígeno específico.
+ Un antígeno es una larga molécula con una configuración distinta que activa
+ una respuesta inmunológica.
+ Las células ayudantes T, son un tipo específico de glóbulos blancos, que
+ circulan por el cuerpo humano, buscando antígenos extraños.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Una vez que una célula auxiliar T reconoce un antígeno extraño, se activan
+ las células B, que son otro tipo de glóbulos blancos, y comienza a reproducirse
+ rápidamente.
+ La mayoría de las células B producen células en el plasma que segregan
+ anticuerpos en el caudal sanguíneo.
+ Los anticuerpos se unen a los antígenos y causan su destrucción.
+ Otras células B se reservan como células de memoria.
+ Cuando un antígeno similar invade el nuevo cuerpo, entonces las células
+ B están listas para atacarlos.
+ Una respuesta inmunológica que crea anticuerpos, se llama una respuesta
+ inmunológica “mediante - anticuerpo”.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En 
+\series bold
+figure 25
+\series default
+ muestra un modelo simplificado del sistema inmunológico.
+ Como todo modelo es una simplificación de una parte pequeña de otro modelo
+ mucho más grande.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura25.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama causal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Las entradas que debes escribir en el siguiente modelo son: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fuerza de la respuesta inmunológica = 1/1000
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades= Dmnl.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Proliferación = fuerza de proliferación*GLOBULOSBLANCOS/tiempo para proliferar
+ los glóbulos blancos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = glóbulos blancos / horas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fuerza de proliferación=antígenos*fuerza de la respuesta inmunológica
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = Dmnl
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Antígenos = CELULAS EXTRANAS*antígenos por célula extraña,
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = Dmnl
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Antígenos por células extraña = 2
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = antigenos7/células extrañas 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+CELULAS EXTRANAS = Multiplicación – Destrucción
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+valor inicial = 100
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+unidades = células extrañas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Destrucción = IF THEN ELSE (CELULAS EXTRANAS < 0, 0, GLOBULOS BLANCOS /
+ tiempo para destruir una celula estrana)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+unidades = células extrañas / Hour
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+GLOUBULOS BLANCOS = Proliferacion
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+valor inicial = 10
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = globulos blancos
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Multiplicacion = IF THEN ELSE (CELULAS EXTRANAS < 0, 0, CELULAS EXTRANA
+ / tiempo para multiplicar una celula estrana)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = células extrañas / Hour
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tiempo para destruir una celula extraña = 1
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = Hour*globulos blancos/células extrañas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tiempo para multiplicar una celula extraña = 5
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = Hour
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tiempo para proliferar una celula extraña = 5
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = Hour;
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Podremos encontrar las graficas del sistema en 
+\series bold
+figure 26 y 27
+\series default
+: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura26.JPG
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de CELULAS EXTRAÑAS Y GLOBULOS BLANCOS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura27.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Grafica de Destruccion, multiplicacion y proliferacion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+Modelo de sistema inmunológico infectado con VIH
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Un efecto del VIH en el sistema inmunológico humano puede ser modelado cambiando
+ la constante 
+\series bold
+fuerza de respuesta inmunológica
+\series default
+ de nuestro modelo.
+ El VIH lesiona al sistema inmunológico saboteando el material genético
+ de las células T.
+ En un cuerpo sano, las células T circulan y reconocen, por cada 1 de 1000
+ antígenos presentes en cada litro de sangre.
+ Cuando el sistema está dañado este nivel desciende.
+ Con pocas células T patrullando, los antígenos no se detectan fácilmente.
+ Las células extrañas pueden multiplicarse antes de que responda el sistema
+ inmunológico.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Sabiendo que el VIH se replica muy rápidamente.
+ Fluye por la sangre hasta llevar al sistema inmunológico a un punto donde
+ el cuerpo sucumbe ante cualquier pequeño ataque exterior.
+ Es en este momento cuando al paciente se le diagnostica como que tiene
+ SIDA.
+ Si la constante fuerza de la respuesta inmunológica es 1/1500 o 1/2000,
+ el cuerpo todavía es capaz de soportar a las invasiones.
+ Sin embargo, si la constante fuerza de la respuesta inmunológica es cada
+ vez más y más pequeña, los efectos llegan a ser desastrosos.
+ El cuerpo solo puede soportar la presencia de un número finito de CELULAS
+ EXTRAÑAS andes de sucumbir puedes observar el comportamiento en 
+\series bold
+figure 28
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura28.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Crecimiento de celulas extrañas y globulos blancos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+El modelo de Lotka-Volterra
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El modelo depredador-presa es uno de los más conocidos y sencillos de aprender.
+ Sabemos que existe una competición constante por la supervivencia entre
+ las diferentes especies de animales que habitan un mismo entrono, un tipo
+ de animales (depredadores) sobreviven alimentándose de otros (presas).
+ El modelo con ecuación diferencial más simple recibe el nombre de sus creadores
+: Lotkta – Volterra (1926).
+ Representan x(t) el número de presas en el tiempo t y y(t) al número de
+ depredadores.
+ El sistema de ecuaciones diferenciales que describe el modelo es: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $x'(t)=\frac{dx(t)}{dt}=ax(t)-bx(t)y(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $y'(t)=\frac{dy(t)}{dt}=-cy(t)+ex(t)y(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Describe la interacción entre presas y depredadores.
+ El modelo es bastante exacto cuando las especies viven en ecosistemas aislados.
+ Tanto a, b, c y e son constantes.
+ El modelo que se construirá y modelara será el que contiene las siguientes
+ ecuaciones:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $x'(t)=0.4x(t)-0.018x(t)\hphantom{};\hphantom{}x(0)=30$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $y'(t)=-0.8y(t)+0.023x(t)y(t)\hphantom{};\hphantom{}y(0)=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Empezamos el construyendo el diagrama ilustrado en 
+\series bold
+figure 29
+\series default
+:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/Hernán/Pictures/simulacion/ejemplo 1/Captura29.JPG
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama depredardor presa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Las entradas que debes ingresar en el modelo son las siguientes: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+DEPREDADORES = tasa nacimientos depredadores – tasa muertes depredadores
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+valor inicial = 4 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = depredadores
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tasa nacimientos depredadores = DEPREDADORES*fracción nacimientos depredadores
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = depredadores/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tasa muertes depredadores = DEPREDADORES*fracción muertes depredadores
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = depredadores /year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+PRESAS = tasa nacimientos presas – tasa muertes presas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+valor inicial = 30
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = presas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tasa nacimientos presas = PRESAS*fracción nacimientos presas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = presas/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Tasa muertes presas = PRESAS*fracción muertes presas
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = presas/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción nacimientos presas = 0.4
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = 1/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción muertes presas = DEPREDADORES*presa matada por depredador
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = 1/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Presa capturada por depredador = 0.018
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = 1/(year*depreadores)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción muertes depredadores = 0.8
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = 1/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Fracción nacimientos depredadores = depredador nacido por presa*PRESAS
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Unidades = 1/year
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Depredador nacido por presa = 0.005
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+unidades = 1/(year*presas)
+\end_layout
+
+\end_body
+\end_document
